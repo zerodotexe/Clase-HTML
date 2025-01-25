@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://images5.alphacoders.com/134/1344515.png) ;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.side-menu {
+    background: url(https://www.pngfind.com/pngs/m/2-24642_imagenes-random-png-cosas-random-png-transparent-png.png);
+    background-size: cover;
+    border: 2px #12a321 solid;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+}
+.side-menu li {
+    font-size: 18px;
+    line-height: 2.4em;
+    border-bottom: 2px #12a3d4;
+}
+.side-menu li:last-child {
+    border: none;
+}
+.side-menu li a {
+    color: #333;
+    text-decoration: none;
+}
+.side-menu li a:hover {
+    background-color: blue;
+    color: yellow;
+}
+#box-1 {
+    background-color: blanchedalmond;
+    border: 20px solid red;
+    border-radius: 20px;
+}
+#box-2 {
+    background-color: #333;
+    color: #fff;
+    border-top: green solid 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: yellow solid 5px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
